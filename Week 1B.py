@@ -30,8 +30,7 @@ def main():
         randomline = random.choice(file)
         print(randomline)
         asker = input('Would you like to continue? yes or no ')
-    #This force closes the program
-    exit()
+    
 
 #This runs the main function
 main()
